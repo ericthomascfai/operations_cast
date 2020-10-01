@@ -26,6 +26,15 @@ int main() {
     scanf("%f",&franc); //saisie de la valeur en franc
     euro=franc/taux; //calcul de valeur en euro
     printf("la valeur en euro est %0.2f\n",euro); //affichage de la valeur en euro
+    /*************************************Exercice n°5******************************************************/
+    float c,f=0; //initialisation déclaration des variables
+    printf("Veuillez saisir une valeur en farenheit\n");
+    scanf("%f",&f);  //saisie de f
+    printf("Valeur en Celcius: %0.2f\n",(float)5/9*(f-32)); //Affichage de la valeur de la formule attention cast en float d'un entier obligatoire
+    printf("Veuillez saisir une valeur en Celcius\n");
+    scanf("%f",&c); //saisie de c
+    printf("Valeur en Farenheit: %0.2f\n",((9*c)/5)+32); //Affichage de la valeur de la foraule
+
 
 
 
