@@ -35,9 +35,8 @@ int main() {
     scanf("%f",&c); //saisie de c
     printf("Valeur en Farenheit: %0.2f\n",((9*c)/5)+32); //Affichage de la valeur de la foraule
     /***********************************Exercice n°6*********************************************************/
-    int u=10,v=5,w=5;
+    int u=5,v=5,w=5;
     float fl,fl1=2;
-
     w=u/v; //pas de conversion tous est du même type
     printf("resultat %d\n",w);
     fl=(float)u/v; //conversion imperative car u et v sont deux entiers
@@ -45,6 +44,11 @@ int main() {
     fl=u/fl1; //ok présence d'un float dans le calcul
     printf("resultat %d %f\n",(int)fl,fl); //conversion obligatoire de lfl pour qu'il puisse être afficher en int
     /**********************************Exercice n°7************************************************************/
+    float prix;
+    printf("Veuillez entrer le prix de l'ordinateur");
+    scanf("%f",&prix);
+    prix*=0.90;
+    printf("Le prix après remise est de %0.2f",prix);
 
 
 
