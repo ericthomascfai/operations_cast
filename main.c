@@ -19,6 +19,13 @@ int main() {
     scanf("%d",&n);
     printf("opposé:%d\n",n*-1);
     printf("Moitier exacte: %lf\n",(double)n/2);
+    /*****************************************Exercice n°4*************************************************/
+    float franc,euro=0;
+    const float taux=6.555967;
+    printf("Veuillez taper la valeur en franc");
+    scanf("%f",franc);
+    euro=franc/taux;
+    printf("la valeur en euro est %0.2f",euro);
 
 
     return 0;
