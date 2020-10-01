@@ -34,6 +34,21 @@ int main() {
     printf("Veuillez saisir une valeur en Celcius\n");
     scanf("%f",&c); //saisie de c
     printf("Valeur en Farenheit: %0.2f\n",((9*c)/5)+32); //Affichage de la valeur de la foraule
+    /***********************************Exercice n°6*********************************************************/
+    int u,v,w=5;
+    float fl,fl1=2;
+
+    w=u/v; //pas de conversion tous est du même type
+    printf("resultat %d",w);
+    fl=(float)u/v; //conversion imperative car u et v sont deux entiers
+    printf("resultat %f",fl);
+    fl=u/fl1; //ok présence d'un float dans le calcul
+    printf("resultat %d %f",fl,fl);
+
+
+
+
+
 
 
 
