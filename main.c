@@ -49,6 +49,14 @@ int main() {
     scanf("%f",&prix);
     prix*=0.90;
     printf("Le prix après remise est de %0.2f",prix);
+    /****&******************************Execice n°8**************************************************************/
+    int x1=0;
+    printf("Veuillez saisir la valaur de x");
+    scanf("%d",&x1);
+    printf("l'image de la fonction (2x+3)(3x2+2) est %d",(2*x1+3)*(3*x1*x1+2));
+
+
+
 
 
 
